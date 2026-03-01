@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body { @apply antialiased bg-gray-50; }
+}
+
+/* Animations personnalisées */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes pulse-ring {
+  0%   { transform: scale(0.8); opacity: 0.8; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+
+.anim-slide-up  { animation: slideUp 0.5s ease-out both; }
+.anim-fade-in   { animation: fadeIn 0.4s ease-out both; }
+.pulse-ring     { animation: pulse-ring 1.5s ease-out infinite; }
