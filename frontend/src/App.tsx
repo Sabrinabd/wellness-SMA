@@ -60,7 +60,7 @@ export default function App() {
                 Wellness SMA
               </h1>
               <p className="text-xs text-gray-400 leading-none mt-0.5">
-                JADE · rAIson · PRJ28725
+                AI-Powered Multi-Agent Wellness System
               </p>
             </div>
           </div>
@@ -122,52 +122,6 @@ export default function App() {
 
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
               <UserInput onSubmit={handleAnalyze} isAnalyzing={false} />
-            </div>
-
-            {/* Archi info */}
-            <div className="rounded-xl border border-blue-100 bg-blue-50 p-4">
-              <div className="flex items-start gap-2.5">
-                <Info className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-sm font-semibold text-blue-700 mb-2">
-                    Architecture du projet
-                  </p>
-                  <div className="space-y-1.5">
-                    {[
-                      [
-                        "💧 Agent Hydratation",
-                        "JADE",
-                        "Détecte les signes de déshydratation",
-                      ],
-                      [
-                        "🧠 Agent Fatigue",
-                        "JADE",
-                        "Analyse la fatigue mentale et le stress",
-                      ],
-                      [
-                        "🚶 Agent Activité",
-                        "JADE",
-                        "Détecte sédentarité et tensions physiques",
-                      ],
-                      [
-                        "⚖️ Agent raison",
-                        "API",
-                        "collecte les propositions des 3 agents, consulte l'API rAIson et retourne la meilleure recommandation",
-                      ],
-                    ].map(([name, tech, desc], i) => (
-                      <div key={i} className="flex items-center gap-2 text-xs">
-                        <span className="font-semibold text-blue-800">
-                          {name}
-                        </span>
-                        <span className="px-1.5 py-0.5 rounded bg-blue-200 text-blue-700 font-mono text-[10px]">
-                          {tech}
-                        </span>
-                        <span className="text-blue-500">{desc}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         )}
@@ -248,7 +202,7 @@ export default function App() {
 
       {/* ── FOOTER ──────────────────────────────────────── */}
       <footer className="text-center py-6 text-xs text-gray-300 border-t border-gray-100 mt-12">
-        Wellness SMA · JADE 4.6 · rAIson PRJ28725 · React + Vite · Non médical
+        Wellness SMA · JADE 4.6 · rAIson · React + Vite · Non médical
       </footer>
     </div>
   );

@@ -1,4 +1,4 @@
-# Wellness SMA — Guide de démarrage rapide
+# Wellness SMA
 
 ## Ce que fait ce projet
 
@@ -18,9 +18,9 @@ Utilisateur  →  [AgentHydratation ]  →  score + arguments
 
 JADE n'est pas sur Maven Central, il faut le télécharger manuellement.
 
-1. Va sur https://jade.tilab.com/download/jade/license/
-2. Accepte la licence → télécharge `JADE-4.6.0-bin.zip` (ou 4.5.0)
-3. Extrais le zip → copie `jade.jar` dans le dossier `lib/`
+1. sur https://jade.tilab.com/download/jade/license/
+2. télécharge `JADE-4.6.0-bin.zip`
+3. Extrais le zip et copie `jade.jar` dans le dossier `lib/`
 
 ### Étape 2 — Installation automatique
 
@@ -44,10 +44,6 @@ run-backend.bat        # Windows
 ./run-frontend.sh      # Linux/Mac
 run-frontend.bat       # Windows
 ```
-
-**Ouvre ton navigateur : http://localhost:3000**
-
----
 
 ## Structure du projet
 
