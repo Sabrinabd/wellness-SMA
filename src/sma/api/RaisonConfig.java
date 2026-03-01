@@ -11,9 +11,9 @@ public final class RaisonConfig {
     
     public static final String API_KEY = System.getenv("RAISON_API_KEY") != null
             ? System.getenv("RAISON_API_KEY")
-            : "RkBvGKGueu7qbXQ6Ye53c2XkDOC7RZeE46UWReMl";
+            : "ta clé api ici";
 
-    public static final String APP_ID  = "PRJ30175";
+    public static final String APP_ID  = "PRJ*****"; // Remplace par ton APP ID rAIson
     public static final String VERSION = "latest";
 
     // ── Timeouts ────────────────────────────────────────────

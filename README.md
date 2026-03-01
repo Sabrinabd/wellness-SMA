@@ -16,8 +16,6 @@ Utilisateur  →  [AgentHydratation ]  →  score + arguments
 
 ### Étape 1 — Obtenir JADE
 
-JADE n'est pas sur Maven Central, il faut le télécharger manuellement.
-
 1. sur https://jade.tilab.com/download/jade/license/
 2. télécharge `JADE-4.6.0-bin.zip`
 3. Extrais le zip et copie `jade.jar` dans le dossier `lib/`
